@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "devops-mcp-server": {
+      "type": "http", 
+      "url": "http://localhost:3003"
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}

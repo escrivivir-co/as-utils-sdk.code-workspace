@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../mcp-presets-site"
+		},
+		{
+			"path": "../mcp-mesh-sdk"
+		},
+		{
+			"path": "../mcp-model-sdk"
+		},
+		{
+			"path": "../mcp-core-sdk"
+		},
+		{
+			"path": "../mpc_oasis-sdk"
+		},
+		{
+			"path": "../mcp-state-machine-driver"
+		},
+		{
+			"path": "../mcp-node-red-contrib-sdk"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"github.copilot.enable": {
+			"*": true
+		},
+		"chat.promptFiles": true,
+		"chat.useAgentsMdFile": true
+	}
+}
