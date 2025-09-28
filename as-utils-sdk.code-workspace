@@ -26,6 +26,9 @@
 		},
 		{
 			"path": "../vibe-bitacora/V003"
+		},
+		{
+			"path": "../twitch-bot-aleph"
 		}
 	],
 	"settings": {

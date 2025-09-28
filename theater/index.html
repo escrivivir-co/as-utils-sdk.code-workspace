@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎭 Theater - Expedición Oasis42</title>
+    <link rel="stylesheet" href="matrix-theater.css">
+</head>
+<body>
+    <div class="matrix-container">
+        <div class="matrix-rain" id="matrixRain"></div>
+        
+        <header class="theater-header">
+            <div class="title-section">
+                <h1 class="matrix-title">🎭 THEATER - EXPEDICIÓN OASIS42</h1>
+                <div class="mission-info">
+                    <span class="mission-status">🚢 El Camino del Héroe</span>
+                    <span class="current-step">Paso <span id="currentStep">1</span>/12</span>
+                </div>
+            </div>
+        </header>
+
+        <main class="theater-main">
+            <!-- Columna Izquierda: Historia -->
+            <section class="story-column">
+                <div class="column-header">
+                    <h2>📖 RELATO CANÓNICO</h2>
+                    <div class="story-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="storyProgress"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="story-steps" id="storySteps">
+                    <!-- Los pasos se cargarán dinámicamente -->
+                </div>
+            </section>
+
+            <!-- Columna Derecha: Estados de Equipos -->
+            <section class="teams-column">
+                <div class="column-header">
+                    <h2>⚙️ ASTILLEROS ESTADO</h2>
+                    <div class="teams-legend">
+                        <span class="status-legend not-started">🔴 No Empezado</span>
+                        <span class="status-legend in-progress">🟡 En Curso</span>
+                        <span class="status-legend completed">🟢 Acabado</span>
+                    </div>
+                </div>
+
+                <div class="teams-grid" id="teamsGrid">
+                    <!-- Los equipos se cargarán dinámicamente -->
+                </div>
+
+                <div class="learning-materials">
+                    <h3>📚 Material para GRAN ÍNDICE</h3>
+                    <div class="materials-list" id="materialsList">
+                        <!-- Los materiales se cargarán dinámicamente -->
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="theater-footer">
+            <div class="footer-info">
+                <span>🎯 Hacklab Session: expedition-oasis42</span>
+                <span>⏰ <span id="currentTime"></span></span>
+                <button class="refresh-btn" onclick="loadMissionState()">🔄 Actualizar</button>
+            </div>
+        </footer>
+    </div>
+
+    <script src="matrix-theater.js"></script>
+</body>
+</html>

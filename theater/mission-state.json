@@ -1,0 +1,264 @@
+{
+  "missionTitle": "Expedición a Oasis42 - El Camino del Héroe",
+  "missionId": "oasis42-hero-journey",
+  "startTime": "2025-09-28T00:00:00Z",
+  "currentStep": 1,
+  "totalSteps": 12,
+  "teams": {
+    "team_alpha": {
+      "name": "Astillero Backend",
+      "currentStep": 1,
+      "progress": 0
+    },
+    "team_beta": {
+      "name": "Astillero Frontend", 
+      "currentStep": 1,
+      "progress": 0
+    },
+    "team_gamma": {
+      "name": "Astillero Integration",
+      "currentStep": 1,
+      "progress": 0
+    },
+    "team_delta": {
+      "name": "Astillero Validation",
+      "currentStep": 1,
+      "progress": 0
+    }
+  },
+  "steps": [
+    {
+      "id": 1,
+      "title": "I. EL MUNDO ORDINARIO",
+      "description": "Isaac navega en el Framework Retro v0.5 bajo comando del Capitán Didac",
+      "technicalGoal": "Inicialización del workspace as-utils-sdk.code-workspace-data",
+      "learningMaterial": [
+        "Framework Retro architecture",
+        "Astilleros especializados (Backend, Frontend, Integration, Validation)",
+        "V003/.github structure"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started", 
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 2,
+      "title": "II. LA LLAMADA A LA AVENTURA",
+      "description": "Mensaje interceptado sobre Oasis42 y la pregunta del número 42",
+      "technicalGoal": "Identificar target services: Zeus(3012), SLMo42(4001), MCPGaia(3003)",
+      "learningMaterial": [
+        "MCP_MESH_SDK network topology",
+        "Service discovery protocols",
+        "Port mapping: 3012→3003→4001"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started", 
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 3,
+      "title": "III. EL RECHAZO DE LA LLAMADA",
+      "description": "Isaac duda de sus capacidades para navegar la Red de Cotilleos",
+      "technicalGoal": "Analyze potential technical challenges and error scenarios",
+      "learningMaterial": [
+        "Common integration errors (500, CORS, timeouts)",
+        "Mock data fallback strategies",
+        "Error handling patterns"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 4,
+      "title": "IV. EL ENCUENTRO CON EL MENTOR",
+      "description": "Don Álvaro y Capitán Didac preparan instancias especializadas de astillero",
+      "technicalGoal": "Setup specialized shipyard instances for each agent type",
+      "learningMaterial": [
+        "Agent specialization boundaries",
+        "mcpHandler.js implementation",
+        "HyperAxe template patterns",
+        "WebSocket coordination protocols"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 5,
+      "title": "V. EL CRUCE DEL UMBRAL",
+      "description": "Isaac zarpa hacia as-utils-sdk.code-workspace - la puerta dimensional",
+      "technicalGoal": "Initialize workspace connection and Framework Retro sync",
+      "learningMaterial": [
+        "Workspace configuration management",
+        "Directory structure: V003/.github → mcp-presets-site/.github",
+        "Framework synchronization protocols"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 6,
+      "title": "VI. PRUEBAS, ALIADOS Y ENEMIGOS",
+      "description": "Navegando la Red de Cotilleos MCP_MESH_SDK, encontrando agentes aliados",
+      "technicalGoal": "Establish connections with Backend, Frontend, Integration agents",
+      "learningMaterial": [
+        "MCP protocol debugging",
+        "Backend Agent: Express.js routing + MCP handling",
+        "Frontend Agent: HyperAxe templates + theme system",
+        "Integration Agent 'Indra': WebSocket + external connections"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 7,
+      "title": "VII. LA APROXIMACIÓN A LA CAVERNA",
+      "description": "Isaac encuentra Zeus MCP Presets Site en puerto 3012",
+      "technicalGoal": "Establish connection to Zeus server and validate architecture",
+      "learningMaterial": [
+        "Zeus architecture: ZeusServer.js + Express.js",
+        "HyperAxe template system",
+        "zeus-config.json configuration",
+        "Theme system: Orange-Dark-MCP"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 8,
+      "title": "VIII. LA ODISEA (LA PRUEBA SUPREMA)",
+      "description": "Confrontación con SLMo42 Oasis - la pregunta del 42",
+      "technicalGoal": "Execute HTTP request chain: Zeus(3012) → SLMo42(4001)",
+      "learningMaterial": [
+        "SLMo42 dual architecture: inference + MCP proxy",
+        "node-llama-cpp integration",
+        "GPU optimization patterns",
+        "REST → JSON-RPC protocol translation"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 9,
+      "title": "IX. LA RECOMPENSA (LA ESPADA)",
+      "description": "Oasis42 revela la verdad sobre la comunicación entre sistemas",
+      "technicalGoal": "Process and validate response from SLMo42 inference engine",
+      "learningMaterial": [
+        "Inference response parsing",
+        "Metadata extraction and validation",
+        "Communication protocol insights",
+        "System interoperability patterns"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 10,
+      "title": "X. EL CAMINO DE REGRESO",
+      "description": "Isaac debe llevar la sabiduría de Oasis42 de vuelta",
+      "technicalGoal": "Document findings and prepare for GRAN ÍNDICE integration",
+      "learningMaterial": [
+        "Response logging and documentation",
+        "Cross-service communication patterns",
+        "Data persistence strategies",
+        "Knowledge transfer protocols"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 11,
+      "title": "XI. LA RESURRECCIÓN",
+      "description": "Colaboración con Agentes Zeus para implementar lo aprendido",
+      "technicalGoal": "Integrate Zeus agents and validate full service chain",
+      "learningMaterial": [
+        "Agent collaboration protocols",
+        "Service integration validation",
+        "Cross-component testing",
+        "System health monitoring"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    },
+    {
+      "id": 12,
+      "title": "XII. EL RETORNO CON EL ELIXIR",
+      "description": "Estreno del GRAN ÍNDICE con la sabiduría completa del ecosistema",
+      "technicalGoal": "Create and populate GRAN ÍNDICE with canonical documentation",
+      "learningMaterial": [
+        "GRAN ÍNDICE architecture and structure",
+        "Canonical documentation standards",
+        "Ecosystem mapping and service catalog",
+        "Knowledge base maintenance protocols"
+      ],
+      "status": "not_started",
+      "teams": {
+        "team_alpha": "not_started",
+        "team_beta": "not_started",
+        "team_gamma": "not_started",
+        "team_delta": "not_started"
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-09-28T00:00:00Z",
+    "hacklab": {
+      "session": "expedition-oasis42",
+      "venue": "digital-theater",
+      "participantTeams": 4
+    }
+  }
+}
