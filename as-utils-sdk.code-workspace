@@ -25,10 +25,13 @@
 			"path": "."
 		},
 		{
-			"path": "../vibe-bitacora/V003"
+			"path": "../mcp-twich-bot-sdk"
 		},
 		{
-			"path": "../twitch-bot-aleph"
+			"path": "../vibe-bitacora/mcp-vibe-framework"
+		},
+		{
+			"path": "../mcp-vscode-ext"
 		}
 	],
 	"settings": {
