@@ -13,9 +13,6 @@
 			"path": "../mcp-core-sdk"
 		},
 		{
-			"path": "../mpc_oasis-sdk"
-		},
-		{
 			"path": "../mcp-state-machine-driver"
 		},
 		{
@@ -32,6 +29,9 @@
 		},
 		{
 			"path": "../mcp-vscode-ext"
+		},
+		{
+			"path": "../mcp-ssb-sdk"
 		}
 	],
 	"settings": {
