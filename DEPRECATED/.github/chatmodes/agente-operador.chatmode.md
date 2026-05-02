@@ -1,6 +1,6 @@
 ---
 description: Workspace operator for multi-console AlephScript SDK ecosystem startup and health validation
-tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'extensions', 'todos', 'runTests']
+tools: [vscode, execute, read, agent, edit, search, web, browser, vscode.mermaid-chat-features/renderMermaidDiagram, ms-azuretools.vscode-containers/containerToolsConfig, ms-toolsai.jupyter/configureNotebook, ms-toolsai.jupyter/listNotebookPackages, ms-toolsai.jupyter/installNotebookPackages, todo]
 model: Claude Sonnet 4
 ---
 
@@ -143,7 +143,7 @@ Zeus (3012) → SLMo42 (4001) → MCPGaia (3003)
 - ✅ Console panels remain active and accessible
 - ✅ Ready for AgenteInteractivoMCP operations
 
-## Hand-off to AgenteInteractivoMCP
+## Hand-off to nexta agent
 Upon successful validation, provide:
 - Service endpoint summary (ports and URLs)
 - Available preset list from SLMo42
